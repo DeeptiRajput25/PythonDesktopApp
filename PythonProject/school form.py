@@ -36,7 +36,7 @@ dateOfBirthEntry.grid(row=8,column=0,sticky="w")
 dateOfBirthEntry = tk.Entry(root,width=30)
 dateOfBirthEntry.grid(row=9,column=0,pady=(10,10))
 
-genderVar = tk.StringVar()
+genderVar = tk.StringVar() # this is requied for two way binding
 genderVar.set("Male")
 
 nameLabel = tk.Label(root,text="Gender")
